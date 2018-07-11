@@ -10,6 +10,9 @@ Funcionalnosti aplikacije:
 * Rezervacija izleta
 * Ocjenjivanje završenog izleta
 
+
 Homepage projekta: http://rks1627.app.fit.ba
+
 Preuzimanje APK-a: http://rks1627.app.fit.ba/APTours.apk
+
 WebAPI repository: https://github.com/AdoPasa/APTours_RKS_seminarski-WebAPI
