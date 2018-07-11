@@ -1,5 +1,4 @@
-APTours
-Seminarski rad za predmet "Razvoj Korisničkih Sučelja"
+APTours je seminarski rad za predmet "Razvoj Korisničkih Sučelja" (https://fit.ba/)
 
 Izrada aplikacije se vrši za turističku agencija dok korisnici aplikacije su turisti. 
 
