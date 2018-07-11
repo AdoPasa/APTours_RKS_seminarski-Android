@@ -1,0 +1,190 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_margin="5dp"
+        android:paddingBottom="4dp">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/TourImage"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_tour_image" />
+
+        <ProgressBar
+            android:id="@+id/TourProgress"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_padding"
+            android:paddingBottom="@dimen/activity_padding"
+            android:visibility="gone"
+            android:layout_marginTop="23dp"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/AddTourToFavorite"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="14dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_add_to_favorite"
+            android:clickable="true"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="150dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/TourTitle"
+                    style="@style/Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Testni text"
+                    android:textColor="@color/black" />
+                <!--
+                android:text="Obilazak općine Tešanj"
+-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="6dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginLeft="-2dp"
+                            android:orientation="horizontal">
+
+                            <android.support.v7.widget.AppCompatImageView
+                                android:id="@+id/RatingFirstStar"
+                                android:layout_width="16.5dp"
+                                android:layout_height="16.5dp"
+                                android:clickable="true"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/ic_full_star" />
+
+                            <android.support.v7.widget.AppCompatImageView
+                                android:id="@+id/RatingSecondStar"
+                                android:layout_width="16.5dp"
+                                android:layout_height="16.5dp"
+                                android:clickable="true"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/ic_full_star" />
+
+                            <android.support.v7.widget.AppCompatImageView
+                                android:id="@+id/RatingThirdStar"
+                                android:layout_width="16.5dp"
+                                android:layout_height="16.5dp"
+                                android:clickable="true"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/ic_full_star" />
+
+                            <android.support.v7.widget.AppCompatImageView
+                                android:id="@+id/RatingFourthStar"
+                                android:layout_width="16.5dp"
+                                android:layout_height="16.5dp"
+                                android:clickable="true"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/ic_half_star" />
+
+                            <android.support.v7.widget.AppCompatImageView
+                                android:id="@+id/RatingFifthStar"
+                                android:layout_width="16.5dp"
+                                android:layout_height="16.5dp"
+                                android:clickable="true"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/ic_star_border" />
+
+                            <TextView
+                                android:id="@+id/TourGradeInformation"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="-2dp"
+                                android:text="-/5"
+                                android:textSize="@dimen/TextSize"  />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/TourPrice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginLeft="10dp"
+                            android:text="Testni text"
+                            android:textSize="@dimen/TextSize"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/TourReservationDate"
+                        android:visibility="gone"
+                        android:layout_marginBottom="6dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="Rezervisano 15 mjesta za 13.10.2018"
+                        android:textSize="@dimen/TextSize"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <!--                <LinearLayout
+                    android:id="@+id/WebViewHolder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+
+                </LinearLayout>-->
+
+                <TextView
+                    android:id="@+id/TourDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Testni text Testni text Testni text Testni text Testni text Testni text Testni text Testni text Testni text Testni text Testni text Testni text"
+                    android:textSize="@dimen/TextSize" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TourReviewButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:textAllCaps="true"
+                android:text="Ocijeni"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="2dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp"
+                android:layout_marginBottom="8dp"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

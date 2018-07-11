@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ba.com.apdesign.aptours">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/ApplicationName"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+        Na ovom activity-u provjeravam da li je korisnik logovan ili ne.
+        Na osnovo toga šaljem ga na HomeActivity ili LoginActivity
+        -->
+        <activity
+            android:name=".RedirectActivity"
+            android:theme="@style/AppThemeNoActionBar"
+            android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppThemeNoActionBar"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/AppThemeNoActionBar"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:theme="@style/AppThemeNoActionBar"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity
+            android:name=".ForgetPasswordActivity"
+            android:theme="@style/AppThemeNoActionBar"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/HomeActivityTitle"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity
+            android:name=".TourDetailsActivity"
+            android:label="@string/TourDetails"
+            android:configChanges="keyboardHidden|orientation|screenSize">
+        </activity>
+        <activity
+            android:name=".AddReviewActivity"
+            android:label="@string/AddReview"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity
+            android:name=".BookTourActivity"
+            android:label="@string/BookNow"
+            android:configChanges="keyboardHidden|orientation|screenSize">
+        </activity>
+        <activity
+            android:name=".ActivateAccountActivity"
+            android:theme="@style/AppThemeNoActionBar"
+            android:configChanges="keyboardHidden|orientation|screenSize"></activity>
+    </application>
+
+</manifest>

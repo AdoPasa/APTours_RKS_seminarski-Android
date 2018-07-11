@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="PrimaryButton" parent="DefaultButton">
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorPrimaryTextLight</item>
+    </style>
+
+    <style name="SecondaryButton" parent="DefaultButton">
+        <item name="android:backgroundTint">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorSecondaryTextLight</item>
+    </style>
+
+    <style name="PrimarySpinner" parent="@style/Widget.AppCompat.Spinner.Underlined">
+        <item name="android:padding">0dp</item>
+    </style>
+</resources>

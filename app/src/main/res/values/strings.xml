@@ -1,0 +1,141 @@
+<resources>
+    <!-- Konfiguracijski podaci -->
+    <string name="ApplicationName">APTours</string>
+    <string name="ApiBaseUrl">http://rks1627.app.fit.ba/api/</string>
+    <string name="ApiRoot">http://rks1627.app.fit.ba/</string>
+
+    <string name="AuthTokenKey">authToken</string>
+    <string name="UsernameKey">username</string>
+    <string name="FirstnameKey">firstname</string>
+    <string name="LastnameKey">eastname</string>
+    <string name="EmailKey">email</string>
+    <string name="PasswordKey">password</string>
+    <string name="ProfilePhotoKey">profilePhoto</string>
+
+    <string name="AuthTokenPreferencesFile">authTokenPreferences</string>
+    <string name="MaleShort">M</string>
+    <string name="FemaleShort">F</string>
+    <string name="CurrencyCode">KM</string>
+
+    <!-- Text na Activity-ima -->
+    <string name="HomeActivityTitle">Početna</string>
+
+    <!-- Text na kontrolama -->
+    <string name="FirstName">Ime</string>
+    <string name="LastName">Prezime</string>
+    <string name="Email">E-mail</string>
+    <string name="ConfirmPassword">Potvrdi lozinku</string>
+    <string name="NoUserAccount">Nemate korisnički račun?</string>
+    <string name="Username">Korisničko ime</string>
+    <string name="Password">Lozinka</string>
+    <string name="Login">Prijavi se</string>
+    <string name="Register">Registruj se</string>
+    <string name="BackToLogin">Nazad na prijavu</string>
+    <string name="ForgetPassword">Zaboravljena lozinka?</string>
+    <string name="RegisterInfo">Unesite podatke za registraciju.</string>
+    <string name="Male">Muško</string>
+    <string name="Female">Žensko</string>
+    <string name="ChooseGender">Odaberite spol</string>
+    <string name="RequestCode">Pošalji zahtjev</string>
+    <string name="ForgetPasswordInfo">Za resetovanje lozinke potrebno je unijeti e-mail na koji će Vam biti proslijeđen verifikacijski kod.</string>
+    <string name="ResetPassword">Resetuj lozinku</string>
+    <string name="Code">Kod</string>
+    <string name="ResetPasswordInfo">Za resetovanje lozinke unesite novu lozinku i verifikacijski kod koji ste primili na Vaš e-mail.</string>
+    <string name="NumberOfPassengers">Broj putnika</string>
+    <string name="AvailableDate">Dostupan datum</string>
+    <string name="BookNow">Rezerviši</string>
+    <string name="Total">Ukupno:</string>
+    <string name="Account">Korisnički račun</string>
+    <string name="Phone">Telefon</string>
+    <string name="Save">Spremi</string>
+    <string name="ActivateAccount">Aktiviraj račun</string>
+    <string name="ActivateAccountInfo">Za aktiviranje korisničkog računa unesite verifikacijski kod koji ste primili na Vaš e-mail.</string>
+    <string name="NoResults">Nema rezultata</string>
+    <string name="LoadAgain">Učitaj ponovo</string>
+    <string name="NewPassword">Nova lozinka</string>
+    <string name="ConfirmNewPassword">Potvrdi novu lozinku</string>
+    <string name="CurrentPassword">Trenutna lozinka</string>
+    <string name="AgendaUnavaible">Agenda nije dostupna</string>
+    <string name="reviewsUnavaible">Ovaj izlet nema recenzija</string>
+    <string name="Day">dan</string>
+    <string name="ReservationDateInformation">Rezervisano %d mjesta/o za %s</string>
+    <string name="CancelReservation">Otkaži rezervaciju</string>
+    <string name="UpcomingTourDate">Izlet počinje %s</string>
+
+    <!-- Menu -->
+    <string name="TourDetails">Detalji izleta</string>
+    <string name="Home">Početna</string>
+    <string name="SavedTours">Spremljeni izleti</string>
+    <string name="NavigationDrawerOpen">Otvori meni</string>
+    <string name="NavigationDrawerClose">Zatvori meni</string>
+    <string name="NavHeaderTitle">Enis Bešlagić</string>
+    <string name="NavHeaderSubtitle">enisbes@gmail.com</string>
+    <string name="NavHeaderDesc">Navigation header</string>
+    <string name="SettingsAction">Settings</string>
+    <string name="Logout">Odjavi se</string>
+    <string name="UpcomingTours">Nadolazeći izleti</string>
+    <string name="FinishedTours">Završeni izleti</string>
+    <string name="Profile">Profil</string>
+    <string name="AddReview">Dodaj recenziju</string>
+    <string name="Review">Recenzija</string>
+    <string name="Tour">Izlet:</string>
+    <string name="Submit">Potvrdi</string>
+    <string name="Cancel">Otkaži</string>
+
+    <!-- Text greški -->
+    <string name="ErrMsgInvalidPassword">Lozinka nije validna.</string>
+    <string name="ErrMsgUsernameOrEmailReq">Korisničko ime/email je obavezan</string>
+    <string name="ErrMsgFriendly">Došlo je do greške, pokušajte ponovo.</string>
+    <string name="ErrMsgNoInternetConnection">Za ovu akciju je potrebna internet konekcija.</string>
+    <string name="ErrMsgAccountNotActive">Vaš korisnički račun je deaktiviran.</string>
+    <string name="ErrMsgWrongUsernameOrPassword">Pogrešno korisničko ime ili lozinka.</string>
+    <string name="ErrMsgActivationCodeNotValid">Aktivacijski kod nije validan.</string>
+    <string name="ErrMsgApiFailure">Nije moguće uspostaviti komunikaciju sa serverom, molomo pokušajte kasnije.</string>
+
+    <string name="ErrMsgFirstnameNotValid">Ime nije validno.</string>
+    <string name="ErrMsgLastnameNotValid">Prezime nije validno.</string>
+    <string name="ErrMsgGenerNotValid">Niste odabrali spol.</string>
+    <string name="ErrMsgEmailNotValid">Email nije validan.</string>
+    <string name="ErrMsgPhoneNotValid">Telefon nije validan.</string>
+    <string name="ErrMsgUsernameNotValid">Korisničko nije validno (može sadržavati samo slova ili znalove \'.\',\'_\',\'-\'.</string>
+    <string name="ErrMsgPasswordNotValid">Lozinka nije validna (mora sadržavati slova i brojeve; mora imati minimalno 6 karaktera).</string>
+    <string name="ErrMsgPasswordNotMatch">Potvrda lozinke nije validna.</string>
+    <string name="ErrMsgUsernameInUse">Korisničko ime je zauzeto.</string>
+    <string name="ErrMsgEmailInUse">Email je zauzet.</string>
+    <string name="ErrMsgPhoneInUse">Telefon je zauzet.</string>
+    <string name="ErrMsgEnteredDataIsNotValid">Uneseni podaci nisu validni.</string>
+    <string name="ErrMsgUserAccountNotFound">Korisnički račun nije pronađen.</string>
+    <string name="ErrMsgResetPasswordTokenNotValid">Kod za resetovanje lozinke nije validan.</string>
+    <string name="ErrMsgUnableToAddToFavorite">Nije moguće dodati izlet u favorite.</string>
+    <string name="ErrMsgUnableToRemoveFromFavorite">Nije moguće ukloniti izlet i favorita.</string>
+    <string name="ErrMsgPasswordRequired">Lozinka je obavezna.</string>
+    <string name="ErrMsgIncorrectPassword">Neispravna loinka.</string>
+    <string name="ErrMsgReviewGrade">Niste odabrali ocjenu.</string>
+    <string name="ErrMsgReviewText">Tekst recenzije je obavezan.</string>
+    <string name="ErrMsgNumberOfPassengers">Broj putnika nije validan</string>
+    <string name="ErrMsgNoTourDates">Ovaj izlet nema slobodnih termina</string>
+    <string name="ErrMsgTourDatesFreePlaces">Nema dovoljno slobodnih mjesta za odabrani datum, maksimalno se može rezervisati %d mjesta.</string>
+
+    <!-- poruke uspjeha -->
+    <string name="SuccessfullyRegistered">Čestitamo, uspješno ste se registrovali.</string>
+    <string name="PasswordSuccessfullyReseted">Uspješno ste resetovali lozinku.</string>
+    <string name="ResetPasswordCodeSuccessfullySended">Kod za resetovanje loztinke je uspješno poslan na Vaš email.</string>
+    <string name="SuccessfullyAddedToFavorite">Uspješno ste dodali izlet u favorite.</string>
+    <string name="SuccessfullyRemovedFromFavorite">Uspješno ste uklonili izlet iz favorita.</string>
+    <string name="ProfileSuccessfullyUpdated">Izmijene su uspješno spremljene.</string>
+    <string name="ReviewSuccessfullyAdded">Recenzija je uspješno dodana.</string>
+    <string name="ReservationSuccessfullyAdded">Rezervacija je uspješno dodana.</string>
+    <string name="TourReservationSuccessfullyCanceled">Rezervacija je uspješno otkazana.</string>
+    <string name="ProfilePhotoSuccessfullyChanged">Profilna slika uspješno izmijenjena.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

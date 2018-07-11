@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/actionsGroup"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navHome"
+            android:icon="@drawable/ic_home"
+            android:title="@string/Home" />
+
+        <item
+            android:id="@+id/navUpcomingTours"
+            android:icon="@drawable/ic_upcoming_tours"
+            android:title="@string/UpcomingTours" />
+
+        <item
+            android:id="@+id/navSavedTours"
+            android:icon="@drawable/ic_remove_to_favorite_black"
+            android:title="@string/SavedTours" />
+
+        <item
+            android:id="@+id/navFinishedTours"
+            android:icon="@drawable/ic_finished_tours"
+            android:title="@string/FinishedTours" />
+    </group>
+
+    <group android:id="@+id/accountGroup"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navAccount"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/Account" />
+
+        <item
+            android:id="@+id/navLogout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="@string/Logout" />
+    </group>
+</menu>

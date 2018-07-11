@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookTourActivity"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/contentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_padding">
+
+        <EditText
+            android:id="@+id/NumberOfPassengersEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/NumberOfPassengers"
+            android:maxLength="4"
+            android:inputType="number"/>
+
+        <Spinner
+            android:id="@+id/AvailableDateSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dialog"
+            android:prompt="@string/AvailableDate"
+            style="@style/PrimarySpinner"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bottom"
+            android:layout_marginTop="@dimen/element_margin"
+            android:paddingBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/TextSize"
+                android:textStyle="bold"
+                android:text="@string/Total"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/priceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/TextSize"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true"
+                android:text="- KM"
+                android:textColor="@color/black"/>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/SubmitReservationButton"
+            style="@style/PrimaryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/BookNow"/>
+
+        <Button
+            android:id="@+id/CancelReservationButton"
+            style="@style/PrimaryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/Cancel"/>
+    </LinearLayout>
+
+
+    <!-- <ProgressBar
+        android:id="@+id/loadingContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>-->
+</RelativeLayout>
